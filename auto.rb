@@ -23,9 +23,6 @@ end
 
 li = page.css('.collection-item')
 max = li.length - 1
-# puts li.length
-# puts max
-# puts ws.num_rows
 
 unless max == ws.num_rows
   start = max + 2
