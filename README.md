@@ -24,6 +24,6 @@ You can refer `.config.json.example`.
 For now the target file (the file will be updated) and this script is placed: 
 ```
 /Desktop|
-        |__ this script
-        |__ the target file
+        |__ this script folder
+        |__ the target file folder
 ```
