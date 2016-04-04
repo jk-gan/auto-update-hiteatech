@@ -19,3 +19,11 @@ git clone git@github.com:jk-gan/auto-update-hiteatech.git
 ```
 You can refer `.config.json.example`.
 - Setup environment variables. Check file `.env.example`. [How to get the key?](http://www.coolheadtech.com/blog/use-data-from-other-google-spreadsheets)
+
+## Notes
+For now the target file (the file will be updated) and this script is placed: 
+```
+/Desktop|
+        |__ this script
+        |__ the target file
+```
