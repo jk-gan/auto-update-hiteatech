@@ -13,7 +13,7 @@ session = GoogleDrive.saved_session("config.json")
 
 ws = session.spreadsheet_by_key(ENV['KEY']).worksheets[0]
 
-page = Nokogiri::HTML(open("../hiteatech.github.io/git.html"))
+page = Nokogiri::HTML(open("../hiteatech.github.io/javascript.html"))
 
 # count the number
 num_attendee = 0
@@ -48,7 +48,7 @@ end
 # puts page.to_html
 
 # Overwrite to the file
-File.write("../hiteatech.github.io/git.html", page.to_html)
+File.write("../hiteatech.github.io/javascript.html", page.to_html)
 
 # Run command to push to github
 puts %x{ cd #{target_path} && git cm -am "Added #{num_attendee} attendee(s)" && git push origin master }
